@@ -1,4 +1,5 @@
 {
+  "name": "@ai-sdk/azure",
   "private": true,
   "scripts": {
     "build": "turbo build",
