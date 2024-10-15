@@ -108,7 +108,7 @@ describe('chat', () => {
 
       const requestUrl = await server.getRequestUrl();
       expect(requestUrl).toStrictEqual(
-        'https://test-resource.openai.azure.com/openai/deployments/test-deployment/chat/completions?api-version=2024-08-01-preview',
+        'https://test-resource.openai.azure.com/openai/deployments/test-deployment/chat/completions?api-version=2024-02-15-preview',
       );
     });
   });
